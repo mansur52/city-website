@@ -1,0 +1,83 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size:16px;
+    font-family:Loto,sans-serif ;
+    font-weight: 500;
+    line-height: 1.8em;
+    color: #666666;
+}
+.parallax {
+    background-image: url('../img/pic1.jpeg');
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-two {
+    background-image: url('../img/pic2.jpg');
+    height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-three {
+    background-image: url('../img/pic3.jpg');
+    min-height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-four {
+    background-image: url('../img/pic5.jpg');
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-one,.parallax-two,.parallax-three, .parallax-four {
+    position: relative;
+    opacity: 0.70;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: whitesmoke;
+    color: #666666;
+}
+.section-dark{
+    background-color:#282e34;
+    color: #dddddd;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border {
+    background-color:#111111;
+    color: #ffffff;
+    padding: 20px;
+}
+.ptext .border .trans{
+    background-color: transparent;
+}
+.parallax1,.parallax2,.parallax3{
+    background-attachment: scroll;
+}
+@media (max-width: 568px) {
+    .parallax1,.parallax2,.parallax3{
+        background-attachment: scroll;
+    }
+}
